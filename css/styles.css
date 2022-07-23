@@ -14,19 +14,44 @@
 body {
    background-color: #E5E5E5;
    color: var(--primary-text-color);
+   font-family: Roboto, sans-serif;
+   letter-spacing: 0.03em;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Roboto;
+}
+
 ul { list-style: none;}
 
 .logo {
     color: var(--accent-color);
+    font-family: Raleway, cursive;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
 }
 .log {
     color: #000000;
+    font-family: Raleway, cursive;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
 }
 /* site nav*/
 
 .site-nav .link {
     color: var(--title-text-color) ;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
 }
 .site-nav .link:hover,
 .site-nav .link:focus
@@ -41,20 +66,51 @@ ul { list-style: none;}
 
 .effect-title {
     color: #FFFFFF;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
 }
 /*section*/
 
 .section-title {
    color: var(--title-text-color);
+font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
 }
 /*feature*/
 .feature-list .title{ color:var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+.feature-text {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
 }
 /*work*/
 .work-comand { color: var(--title-text-color);
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
 }
 .work-list .title{
-    color: var(--title-text-color);
+color: var(--title-text-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+}
+.work-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.18;
 }
 
 /*button*/
@@ -65,12 +121,30 @@ ul { list-style: none;}
 .button-primary {
     color: var(--accent-color);
     background-color: var(--primary-bg-color);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        text-decoration: none;
 }
 .button-secondary {
     color: var(--primary-text-color);
     background-color: var(--primary-bg-color);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        text-decoration: none;
 }
 .button-premium {
     color: #FFFFFF;
     background-color: var(--accent-color);
+    font-weight: 700;
+        font-size: 16px;
+        line-height: 1.87;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+    
 }
