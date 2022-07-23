@@ -152,24 +152,8 @@ line-height: 1.18;
         text-align: center;
         letter-spacing: 0.06em;
 }
-.adress-map {
-color: #FFFFFF;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.7;
-text-decoration: none;
-}
-.adress { color: rgba(255, 255, 255, 0.6);
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.7;
-        text-decoration: none;
-}
-.adress-list .adress-map .adress:hover,
-.adress-list .adress-map .adress:focus {
-    color: var(--accent-color);
-}
 
+/*project*/
 .cursor {
     color: var(--title-text-color);
     cursor: pointer;
@@ -198,3 +182,23 @@ font-size: 16px;
 line-height: 1.87;
 text-decoration: none;
 }
+/**footer*/
+.adress-map {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    text-decoration: none;
+}
+
+.adress {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    text-decoration: none;
+}
+
+.adress-list .adress-map .adress:hover,
+.adress-list .adress-map .adress:focus {
+    color: var(--accent-color);}
