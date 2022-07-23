@@ -115,7 +115,7 @@ line-height: 1.18;
 
 /*button*/
 .button {
-    color: #FFFFFF;
+    color: var(--primary-text-color);
     background-color: var(--primary-bg-color);
 }
 .button-primary {
@@ -136,6 +136,10 @@ line-height: 1.18;
         letter-spacing: 0.02em;
         text-decoration: none;
 }
+.button-primary .button-secondary:hover,
+.button-primary .button-secondary:focus{
+    color: var(--accent-color);
+}
 .button-premium {
     color: #FFFFFF;
     background-color: var(--accent-color);
@@ -146,5 +150,42 @@ line-height: 1.18;
         align-items: center;
         text-align: center;
         letter-spacing: 0.06em;
-    
+}
+.adress-map {
+color: #FFFFFF;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+}
+.adress { color: rgba(255, 255, 255, 0.6);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+}
+.cursor {
+    color: var(--title-text-color);
+    cursor: pointer;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+}
+.project-cursor .cursor:hover,
+.project-cursor .cursor:focus
+{
+color: #FFFFFF;
+background-color: var(--accent-color);
+}
+.project-work .project {
+color: var(--title-text-color);
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+        text-decoration: none;
+}
+.project-text {
+    color: var(--primary-text-color);
+font-weight: 400;
+font-size: 16px;
+line-height: 1.87;
 }
