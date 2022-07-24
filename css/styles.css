@@ -17,14 +17,6 @@ body {
    font-family: Roboto, sans-serif;
    letter-spacing: 0.03em;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: Roboto;
-}
 
 ul { list-style: none;}
 
@@ -44,6 +36,13 @@ ul { list-style: none;}
     line-height: 1.19;
     text-decoration: none;
 }
+.logos{
+font-family: Raleway, cursive;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+color: #FFFFFF;
+}
 /* site nav*/
 
 .site-nav .link {
@@ -59,8 +58,8 @@ ul { list-style: none;}
 {
     color: var(--accent-color);
 }
-.site-nav .link .curret{
-    color: var(--accent-color);
+.link-curret{ color: var(--accent-color);
+ text-decoration: none;
 }
 
 /* effect*/
@@ -120,7 +119,7 @@ line-height: 1.18;
     background-color: var(--primary-bg-color);
 }
 .button-primary {
-    color: var(--accent-color);
+    color: var(--primary-text-color);
     background-color: var(--primary-bg-color);
         font-weight: 500;
         font-size: 14px;
@@ -137,8 +136,12 @@ line-height: 1.18;
         letter-spacing: 0.02em;
         text-decoration: none;
 }
-.button-primary .button-secondary:hover,
-.button-primary .button-secondary:focus{
+.button-primary:hover,
+.button-primary:focus{
+    color: var(--accent-color);
+}
+.button-secondary:hover,
+.button-secondary:focus {
     color: var(--accent-color);
 }
 .button-premium {
@@ -173,7 +176,7 @@ color: var(--title-text-color);
         font-size: 18px;
         line-height: 2;
         letter-spacing: 0.06em;
-    text-decoration: none;
+        text-decoration: none;
 }
 .project-text {
     color: var(--primary-text-color);
@@ -183,22 +186,31 @@ line-height: 1.87;
 text-decoration: none;
 }
 /**footer*/
+.footer-fons{
+    background-color: #2F303A;
+}
 .adress-map {
     color: #FFFFFF;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.7;
+    line-height: 1.71;
     text-decoration: none;
+    font-style: normal;
 }
 
 .adress {
     color: rgba(255, 255, 255, 0.6);
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.7;
+    line-height: 1.71;
     text-decoration: none;
+    font-style: normal;
 }
-
-.adress-list .adress-map .adress:hover,
-.adress-list .adress-map .adress:focus {
-    color: var(--accent-color);}
+.adress-map:hover,
+.adress-map:focus {
+    color: var(--accent-color);
+}
+.adress:hover,
+.adress:focus {
+    color: var(--accent-color);
+}
