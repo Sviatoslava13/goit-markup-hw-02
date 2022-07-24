@@ -170,6 +170,10 @@ line-height: 1.18;
 color: #FFFFFF;
 background-color: var(--accent-color);
 }
+
+.project-link {
+    text-decoration: none;
+}
 .project-work .project {
 color: var(--title-text-color);
         font-weight: 700;
@@ -178,7 +182,7 @@ color: var(--title-text-color);
         letter-spacing: 0.06em;
         text-decoration: none;
 }
-.project-text {
+.project-text  {
     color: var(--primary-text-color);
 font-weight: 400;
 font-size: 16px;
